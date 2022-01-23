@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  width: 700px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner__header {
+  text-transform: uppercase;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner__description {
+  color: #777;
+}
+.faq {
+  margin-bottom: 50px;
+}
+.faq__element {
+  cursor: pointer;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+.faq__element:hover {
+  box-shadow: 1px 1px 10px 1px;
+}
+.faq__answer {
+  display: none;
+}
+
+.faq__element:hover .faq__answer {
+  display: block;
+}
+
+.sideMenu {
+  padding: 20px 40px 20px 20px;
+  background-color: rgb(144, 144, 148);
+  position: fixed;
+  top: 40%;
+  left: 0;
+}
+
+.sideMenu__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sideMenu__link {
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+  font-variant: small-caps;
+}
+
+.sideMenu__link:hover {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center ;
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 10;
+}
+
+.navbar{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+  
+}
+
+
+.nav__link {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.ul1 {
+    list-style-type: none;
+    text-decoration: black;
+}
+
+.button{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.container3{
+  max-width: auto;
+  background-color: #FFFF;
+}
+
+.ulfooter{
+  list-style-type: none;
+  text-decoration: black;
+}

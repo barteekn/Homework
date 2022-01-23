@@ -1,0 +1,136 @@
+body {
+  background: #ffffff;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+#parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1180px) {
+  .blog .blog-heading .blog-content .blogbox .boxA .boxB .boxC .frame-content .frame-title {
+    min-width: 33.33%; 
+  }
+}
+
+@media (max-width: 32-px) {
+  .blog .blog-heading .blog-content .blogbox .boxA .boxB .boxC .frame-content .frame-title {
+    min-width: 50%; 
+  }
+}
+
+
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: flex-start; */
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  width: 1180px;
+  height: 576px;
+  margin-inline: auto;
+}
+
+.blog-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 1180px;
+  height: 64px;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 1180px;
+  height: 422px;
+  /* border: 2px solid black; */
+}
+
+.h1 {
+  position: static;
+  width: 384px;
+  height: 64px;
+  top: 0px;
+  left: 0px;
+  order: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2f2e41;
+}
+
+.blog-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px;
+  position: static;
+  border: 1px solid #6c63ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  order: 1;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blogbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 363.33px;
+  height: 422px;
+  /* border: 1px solid black; */
+  margin-inline: auto;
+  border-radius: 2px;
+}
+
+.boxA {
+}
+
+.boxB {
+}
+
+.boxC {
+}
+
+.frame-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  /* border: 1px solid black; */
+  width: 363.33px;
+  height: auto;
+  color: #2f2e41;
+  text-transform: capitalize;
+}
+
+.frame-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9893a3;
+}
+
+.rmore {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(197, 194, 255, 0.5);
+  text-decoration: none;
+}
