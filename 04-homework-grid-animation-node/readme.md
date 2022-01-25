@@ -18,5 +18,4 @@ Praca programisty często polega na dostosowywaniu istniejących rozwiązań do 
 ## Punktacja
 Łącznie możesz uzyskać 9pkt - po 3pkt za każde zadanie.
 
-## Termin
-Nienegocjowalnym terminem oddania zadania jest 30.01.2022, godzina 23:59.
+## Termin - Nienegocjowalnym terminem oddania zadania jest 30.01.2022, godzina 23:59.
