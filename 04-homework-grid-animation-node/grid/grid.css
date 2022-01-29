@@ -33,7 +33,7 @@ p{
   width: 90px;
   height: 90px;
   margin: auto;
-  background: #49b6ff;
+  background: rgba(11, 72, 107, 0.25);
 }
 .box2 {
   grid-column: 1 / 2;
@@ -65,5 +65,5 @@ p{
   width: 100px;
   height: 100px;
   margin: auto;
-  background: #49b6ff;
+  background: rgba(11, 72, 107, 0.25);
 }
