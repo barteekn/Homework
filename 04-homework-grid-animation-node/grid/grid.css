@@ -19,7 +19,6 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   border: solid 2px white;
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
@@ -33,13 +32,16 @@ p {
   width: 90px;
   height: 90px;
   margin: auto;
-  background: rgba(11, 72, 107, 0.25);
+  background: #0b486b;
+  opacity: 35%;
+  top: 0%;
 }
 .box2 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   margin: 0 auto;
   border: solid 1px black;
+  line-height: 20px;
   /* background-color: tomato; */
 }
 
@@ -48,6 +50,7 @@ p {
   grid-row: 2 / 3;
   margin: 0 auto;
   border: solid 1px black;
+  line-height: 20px;
   /* background-color: tomato; */
 }
 
@@ -56,6 +59,7 @@ p {
   grid-row: 2 / 3;
   margin: 0 auto;
   border: solid 1px black;
+  line-height: 20px;
   /* background-color: tomato; */
 }
 .box5 {
@@ -65,5 +69,6 @@ p {
   width: 100px;
   height: 100px;
   margin: auto;
-  background: rgba(11, 72, 107, 0.25);
+  background: #0b486b;
+  opacity: 35%;
 }
