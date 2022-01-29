@@ -6,4 +6,4 @@ const server = http.createServer((req, res) =>{
   fs.createReadStream('index.html').pipe(res)
 })
 
-server.listen(process.env.127.0.0.1 || 5500)
+server.listen(5500, '127.0.0.1')
