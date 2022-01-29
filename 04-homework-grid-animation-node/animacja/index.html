@@ -1,16 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    >
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="motionblur">
-        <div class="box">HELLO</div>
-      </div>
-      
-</body>
+      <div class="box"></div>
+    </div>
+  </body>
+  <style>
+    .motionblur {
+      position: absolute;
+      width: 300px;
+      height: 100px;
+      animation: slide 1.5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite
+        alternate;
+      display: flex;
+      justify-content: center;
+    }
+
+    .box {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: #0f8c77;
+      animation: slide 1.5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite
+        alternate;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateY(300px);
+      }
+      100% {
+        transform: translateY(100px);
+      }
+    }
+
+    .box::before {
+      content: "";
+      position: absolute;
+      height: 200px;
+      width: 100px;
+      background: linear-gradient(
+        rgba(15, 140, 119, 0.5) 50%,
+        rgba(15, 140, 119, 0) 100%
+      );
+      transform-origin: 0 0;
+      animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)-1.5s infinite;
+    }
+
+    @keyframes scale {
+      0% {
+        transform: skewY(0.1);
+      }
+      30% {
+        transform: scaleY(0.3);
+      }
+      55% {
+        transform: scaleY(0.6);
+      }
+      100% {
+        transform: scaleY(1.2);
+      }
+    }
+
+    .box::after {
+      content: "";
+      position: absolute;
+      top: -100px;
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(
+        rgba(15, 140, 119, 0) 0%,
+        rgba(15, 140, 119, 0.5) 50%
+      );
+      transform-origin: 0 100%;
+      animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+    }
+  </style>
 </html>

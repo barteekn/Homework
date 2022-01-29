@@ -1,3 +1,6 @@
+/* oryginalny CSS z https://codepen.io/YusukeNakaya/pen/Poomvbg
+
+
 body {
     background: #fff;
     height: 100vh;
@@ -20,7 +23,7 @@ body {
     left: calc(50% - 50px);
     width: 100px;
     height: 100%;
-    background: #0d0162;
+    background: #66bf07;
     -webkit-animation: slide 1.5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
             animation: slide 1.5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
   }
@@ -29,7 +32,7 @@ body {
     position: absolute;
     width: 200px;
     height: 100%;
-    background: linear-gradient(90deg, rgba(13, 1, 98, 0.5) 50%, rgba(13, 1, 98, 0) 100%);
+    background: linear-gradient(90deg, rgba(102, 191, 7, 0.5) 50%, rgba(102, 191, 7, 0) 100%);
     transform-origin: 0 0;
     -webkit-animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)-1.5s infinite;
             animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)-1.5s infinite;
@@ -40,7 +43,7 @@ body {
     left: -100px;
     width: 200px;
     height: 100%;
-    background: linear-gradient(90deg, rgba(13, 1, 98, 0) 0%, rgba(13, 1, 98, 0.5) 50%);
+    background: linear-gradient(90deg, rgba(102, 191, 7, 0) 0%, rgba(102, 191, 7, 0.5) 50%);
     transform-origin: 100% 0;
     -webkit-animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
             animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
@@ -90,4 +93,4 @@ body {
     100% {
       transform: translate3d(150px, 0, 0);
     }
-  }
+  } */
