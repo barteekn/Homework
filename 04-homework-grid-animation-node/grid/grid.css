@@ -21,9 +21,9 @@ p {
   height: auto;
   width: auto;
   max-width: 1440px;
+  max-height: fit-content;
   margin: 0 auto;
   text-align: center;
-  /* border: black solid 4px; */
 }
 
 .box1 {
@@ -31,9 +31,9 @@ p {
   grid-row: 1 / 2;
   width: 90px;
   height: 90px;
-  background: #0b486b;
+  background: #49b6ff80;
   opacity: 35%;
-  margin: 0 auto;
+  margin: auto auto 0 auto;
 }
 
 .box2 {
@@ -61,27 +61,35 @@ p {
   grid-row: 3 / 4;
   width: 100px;
   height: 100px;
-  margin: auto auto 0 auto;
-  background: #0b486b;
+  margin: 0 auto 0 auto;
+  background: #49b6ff80;
   opacity: 35%;
 }
 
-/* .flexy{
+.content-rectangle {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.small-rect{
-  background-color: red;
+.small-rect {
+  background: #49b6ff80;
   height: 26px;
   width: 26px;
   opacity: 35%;
 }
 
-.xsmall-rect{
-  background-color: red;
+.xsmall-rect {
+  background: #49b6ff80;
   height: 16px;
   width: 16px;
   opacity: 35%;
-} */
+}
+
+.logoimg {
+  position: static;
+  width: 64px;
+  height: 64px;
+  left: 148.67px;
+  top: 0px;
+}
