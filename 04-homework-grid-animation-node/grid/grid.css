@@ -18,12 +18,12 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  border: solid 2px white;
-  max-width: 1200px;
+  height: auto;
+  width: auto;
+  max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  align-items: stretch;
-  border: solid 1px red;
+  /* border: black solid 4px; */
 }
 
 .box1 {
@@ -31,44 +31,57 @@ p {
   grid-row: 1 / 2;
   width: 90px;
   height: 90px;
-  margin: auto;
   background: #0b486b;
   opacity: 35%;
-  top: 0%;
+  margin: 0 auto;
 }
+
 .box2 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   margin: 0 auto;
-  border: solid 1px black;
   line-height: 20px;
-  /* background-color: tomato; */
 }
 
 .box3 {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   margin: 0 auto;
-  border: solid 1px black;
   line-height: 20px;
-  /* background-color: tomato; */
 }
 
 .box4 {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
   margin: 0 auto;
-  border: solid 1px black;
   line-height: 20px;
-  /* background-color: tomato; */
 }
 .box5 {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-  /* background-color: tomato; */
   width: 100px;
   height: 100px;
-  margin: auto;
+  margin: auto auto 0 auto;
   background: #0b486b;
   opacity: 35%;
 }
+
+/* .flexy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-rect{
+  background-color: red;
+  height: 26px;
+  width: 26px;
+  opacity: 35%;
+}
+
+.xsmall-rect{
+  background-color: red;
+  height: 16px;
+  width: 16px;
+  opacity: 35%;
+} */
