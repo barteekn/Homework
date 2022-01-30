@@ -10,12 +10,12 @@ const server = http.createServer((req, res) => {
       res.end(page);
     });
   }
-  if (req.url === "/about.html") {
+  if (req.url === "/about") {
     res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-    res.write("<h1>O nas-html</h1>");
+    res.write("<h1>About-html</h1>");
     res.end();
   }
-  if (req.url === "/contact.html") {
+  if (req.url === "/contact") {
     res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
     res.write("<h1>Kontakt-html</h1>");
     res.end();
