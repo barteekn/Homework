@@ -1,0 +1,67 @@
+body {
+  margin-inline: auto;
+  background: rosybrown;
+}
+
+.motionblur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  height: 100px;
+  animation: slide 1.5s cubic-bezier(0.455, 0.05, 0.55, 0.95) infinite alternate;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #0b486b;
+  animation: slide 1.5s cubic-bezier(0.455, 0.05, 0.55, 0.95) infinite alternate;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient (rgb(17, 72, 107) 50%, rgb(17, 72, 107) 100%);
+  transform-origin: 0 0;
+  animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95)-1.5s infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scaleY(0.1);
+  }
+  30% {
+    transform: scaleY(0.3);
+  }
+  55% {
+    transform: scaleY(0.6);
+  }
+  100% {
+    transform: scaleY(1.2);
+  }
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  top: -100px;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient (rgb(17, 72, 107) 50%, rgb(17, 72, 107) 100%);
+  transform-origin: 0 100%;
+  animation: scale 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
