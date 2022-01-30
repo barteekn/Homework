@@ -4,11 +4,18 @@ body {
   padding: 0;
 }
 
+h3{
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
 .center {
   width: 700px;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  background: whitesmoke;
+  border-radius: 5px;
 }
 
 .banner {
@@ -16,13 +23,14 @@ body {
 }
 
 .banner__header {
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .banner__description {
   color: #777;
+
 }
 .faq {
   margin-bottom: 50px;
@@ -45,7 +53,8 @@ body {
 
 .sideMenu {
   padding: 20px 40px 20px 20px;
-  background-color: rgb(144, 144, 148);
+  background-color: rgb(144, 144, 148, 0.25);
+  border-radius: 4px;
   position: fixed;
   top: 40%;
   left: 0;
@@ -68,60 +77,73 @@ body {
   margin-right: 0;
 }
 
-
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center ;
+.navbar {
   width: 1200px;
   height: 60px;
-  margin: 0 auto;
-  padding: 10;
-}
-
-.navbar{
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-variant: small-caps;
-  color: black;
-  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.568);
+  padding: 0;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  
+  align-items: center;
 }
 
-
-.nav__link {
-  font-size: 20px;
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-variant: small-caps;
-  color: black;
-  text-decoration: none;
-  justify-content: space-between;
-  display: inline-block;
+  text-transform: uppercase;
 }
 
-.ul1 {
-    list-style-type: none;
-    text-decoration: black;
-}
-
-.button{
-  font-size: 20px;
+.navbar li {
+  padding: 15px;
+  color: rgb(85, 84, 84);
+  font-size: 14px;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  font-variant: small-caps;
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
+  text-transform: uppercase;
 }
 
-.container3{
-  max-width: auto;
-  background-color: #FFFF;
+.navbar__links {
+  /* display: flex; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
-.ulfooter{
+li.cart {
+  list-style-type: none;
+  padding: auto;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.sideMenuList {
   list-style-type: none;
   text-decoration: black;
 }
+
+/* .button {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.container3 {
+  max-width: auto;
+  background-color: #ffff;
+}
+
+.ulfooter {
+  list-style-type: none;
+  text-decoration: black;
+} */
