@@ -41,3 +41,20 @@ let student2 = Array[1];
 let student3 = Array[2];
 let student4 = Array[3];
 let student5 = Array[4];
+
+
+// Zd-4
+
+function createUser(name, surname, PESEL, university) {
+  return name +' ' + surname +' ' + PESEL +' ' + university;
+}
+
+console.log(createUser('Bartek', 'Nowakowski', '123456789', 'Programowanie'));
+
+console.log(createUser({
+
+  name: 'Bartek',
+  surname: 'Nowakowski',
+  PESEL: '123456789',
+  university: 'Programowanie'
+}))
