@@ -1,4 +1,4 @@
-@@ -0,0 +1,27 @@
+
 # Zadanie 5 - JS - basics
 
 ## Treść zadania
