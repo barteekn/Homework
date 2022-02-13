@@ -20,21 +20,9 @@ if (typeof (a || b)) {
 }
 
 
-suma(50, 30);
-
-
-
-
-// suma(`oqrwa!`);
-// suma(a, b)
-
-
-// if (suma !== "number") {
-                
-//     console.log("Niepoprawny parametr!");
-
-// } else if (suma === 'undefined') {
-
-//     console.log(a);
-
-// } 
+suma(50, 150);
+suma(30);
+suma(40, -30);
+suma(-30, 0);
+suma("2", "10");
+suma("infoShare", " Academy Sp. z o.o.");
