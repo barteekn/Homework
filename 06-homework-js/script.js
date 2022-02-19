@@ -1,4 +1,4 @@
-const studentsList = ["Jacek Kowalski", "Ewa Nowak", "Zygmunt Lewandowski", "Bartek Cebulski", "Jadwiga Zelman"]
+const studentsName = ["Jacek Kowalski", "Ewa Nowak", "Zygmunt Lewandowski", "Bartek Cebulski", "Jadwiga Zelman"];
 
 const students = [
     {
@@ -34,18 +34,27 @@ const students = [
  ];
 
 
- const getMaxNote = students.filter(function (search) {
+    const getMaxNote = students.filter(function (search) {
          return search.notes.includes(5)
      });
      console.log(getMaxNote)
 
-const getMinNote = students.filter(function (search) {
+    const getMinNote = students.filter(function (search) {
         return search.notes.includes(1)
     });
     console.log(getMinNote)
 
-    // for (let notes in students) {
-    //        console.log(students);
+//     for (let notes in students) {
+//     console.log(notes);
+
+//     if (+notes !== 0) {
+//     console.log('jestem w ifie');
+//     continue;
+//   }
+// }
+
+// const studentsName = students[notes];
+// console.log(studentsName);
 
 // function getMaxNote(studentnotes, studentid, getMaxNoteFn) {
 //     if ()
