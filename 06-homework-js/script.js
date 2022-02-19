@@ -1,5 +1,3 @@
-const studentsName = ["Jacek Kowalski", "Ewa Nowak", "Zygmunt Lewandowski", "Bartek Cebulski", "Jadwiga Zelman"];
-
 const students = [
     {
        id: 1,
@@ -19,57 +17,56 @@ const students = [
        name: "Zygmunt Lewandowski",
        notes: [2, 2, 4, 4, 3, 3]
     },
-    {
+   ];
+
+    studentsAdd = {
         id: 4,
         pesel: '456789012',
         name: "Bartek Cebulski",
-        notes: [4, 4, 5, 5, 2, 3]
-     },
-     {
+        notes: [4, 4, 6, 5, 2, 3]
+     };
+
+     studentsAdd1 = {
         id: 5,
         pesel: '567890123',
         name: "Jadwiga Zelman",
         notes: [5, 5, 4, 3, 2, 1]
-     }
- ];
+     };
+ 
+     students.push(studentsAdd, studentsAdd1);
+     console.log(students);
 
+//////////////////////////////////////////////////////////////////////////////// 
 
-    const getMaxNote = students.filter(function (search) {
-         return search.notes.includes(5)
-     });
-     console.log(getMaxNote)
+const getMaxNote = (studentsArray, studnetId, callback) => {
+   for (let i = 0; i < studentsArray.length; i++) {
+      if (studnetId === studentsArray[i].pesel) {
+       return studnetId = i;
+      }
+      const max = Math.max(...studentsArray[studnetId].notes);
+      console.log(max);
 
-    const getMinNote = students.filter(function (search) {
-        return search.notes.includes(1)
-    });
-    console.log(getMinNote)
+      return callback(studentsArray[i], max, 'max')
+   }
+};
 
-//     for (let notes in students) {
-//     console.log(notes);
+const displayInfo = (studentName, note, check) => {
+   if (check) {
+      console.log(`Max note for student ${studentName.name} is ${note}`)
+   } else {
+      console.log(`Min note for student ${studentName.name} is ${note}`)
+   }
+      
+};
 
-//     if (+notes !== 0) {
-//     console.log('jestem w ifie');
-//     continue;
-//   }
-// }
+const getMinNote = (studentsArray, studnetId, callback) => {
+   for (let i=0; i < studentsArray.length; i++) {
+      if (studnetId === studentsArray[i].pesel) {
+      return;
+      }
+      const min = Math.min(...studentsArray[i].notes);
+      console.log(min);
 
-// const studentsName = students[notes];
-// console.log(studentsName);
-
-// function getMaxNote(studentnotes, studentid, getMaxNoteFn) {
-//     if ()
-// };
-// console.log(getMaxNote);
-
-
-
-//  const students
-// function getMaxNote (notes, cb) {
-//     var count = 0;
-//     for (var i = 0; i < list.length; i++) {
-//       if (cb(list[i]) === true) {
-//         count += 1;
-//       }
-//     }
-//     return count;
-//   };
+      return callback(studentsArray[i], min)
+      }
+ };
