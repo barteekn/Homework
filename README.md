@@ -1,5 +1,5 @@
-# Homework
-<p>My "WIP" homework's</p>
+# Homework's
+<p>yep...that's it!</p>
 <ul>
 <li><a href="https://github.com/barteekn/Homework/tree/master/01-homework-git">01-homework</a> / GIT - reviewing knowledge</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/02-homework-fusely">02-homework</a> / HTML&CSS - creating a simple site with Figma</li>
