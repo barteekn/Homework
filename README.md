@@ -1,4 +1,4 @@
-# Homework's
+# 📝 Homework's
 <p>yep...that's it!</p>
 <ul>
 <li><a href="https://github.com/barteekn/Homework/tree/master/01-homework-git">01-homework</a> / GIT - reviewing knowledge</li>
