@@ -1,7 +1,13 @@
 # <a href='https://infoshareacademy.com/'><img src='https://infoshareacademy.com/wp-content/themes/infoshare/src/images/logo.svg' height='40' alt='infoShare Academy Logo' aria-label='https://infoshareacademy.com/' /></a>
+<<<<<<< HEAD
 
 📝 Homework's
 
+=======
+📝 Homework's
+
+
+>>>>>>> 29e664f0015abcdce91572b5ae7c0d62cf3be0ce
 <ul>
 <li><a href="https://github.com/barteekn/Homework/tree/master/01-homework-git">01-homework</a> / GIT - reviewing knowledge</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/02-homework-fusely">02-homework</a> / HTML&CSS - creating a simple site with Figma</li>
@@ -11,3 +17,5 @@
 <li><a href="https://github.com/barteekn/Homework/tree/master/06-homework-js">06-homework</a> / JS - operations on collections</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/07-homework-js-api">07-homework</a> / JS - work with API(s)</li>
 </ul>
+
+
