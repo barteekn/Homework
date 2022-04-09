@@ -6,9 +6,7 @@
 
 <a title="JS logo via Wikimedia Commons" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img height='40' alt="JavaScript logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/64px-Unofficial_JavaScript_logo_2.svg.png"></a>
 
-<a href="http://www.w3.org/html/logo/">
-<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
-</a>
+<a title="daPhyre, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg"><img width="64" alt="CSS3 and HTML5 logos and wordmarks" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/64px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"></a>
 
 #
 
