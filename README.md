@@ -7,7 +7,7 @@
 <a title="JS logo via Wikimedia Commons" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img height='40' alt="JavaScript logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/64px-Unofficial_JavaScript_logo_2.svg.png"></a>
 
 <a href="http://www.w3.org/html/logo/">
-<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="40" alt="HTML5 Powered" title="HTML5 Powered">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
 </a>
 
 #
