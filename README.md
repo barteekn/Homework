@@ -1,6 +1,5 @@
 #
 <a title="infoShareAcademy" href='https://infoshareacademy.com/'><img src='https://infoshareacademy.com/wp-content/themes/infoshare/src/images/logo.svg' height='40' alt='infoShare Academy Logo' aria-label='https://infoshareacademy.com/' /></a>
-
 #
 
 📝 Homework's
