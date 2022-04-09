@@ -1,4 +1,5 @@
 #
+
 <a href='https://infoshareacademy.com/'><img src='https://infoshareacademy.com/wp-content/themes/infoshare/src/images/logo.svg' height='40' alt='infoShare Academy Logo' aria-label='https://infoshareacademy.com/' /></a>
 
 <a href='https://github.com/'><img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' height='40' alt='Git-Hub Logo' aria-label='https://github.com/logos/' /></a>
@@ -9,8 +10,8 @@
 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="40" alt="HTML5 Powered" title="HTML5 Powered">
 </a>
 
+#
 
-# 
 📝 Homework's
 
 <ul>
@@ -22,5 +23,3 @@
 <li><a href="https://github.com/barteekn/Homework/tree/master/06-homework-js">06-homework</a> / JS - operations on collections</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/07-homework-js-api">07-homework</a> / JS - work with API(s)</li>
 </ul>
-
-
