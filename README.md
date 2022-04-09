@@ -1,15 +1,15 @@
 #
 
 
-<a href='https://infoshareacademy.com/'><img align="left" src='https://infoshareacademy.com/wp-content/themes/infoshare/src/images/logo.svg' height='40' alt='infoShare Academy Logo' aria-label='https://infoshareacademy.com/' /></a>
+<a title="infoShareAcademy" href='https://infoshareacademy.com/'><img align="left" src='https://infoshareacademy.com/wp-content/themes/infoshare/src/images/logo.svg' height='40' alt='infoShare Academy Logo' aria-label='https://infoshareacademy.com/' /></a>
 
-<a href='https://github.com/'><img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' height='40' alt='Git-Hub Logo' aria-label='https://github.com/logos/' /></a>
+<a title="Git-Hub" href='https://github.com/'><img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' height='40' alt='Git-Hub Logo' aria-label='https://github.com/logos/' /></a>
 
 <a title="JS logo via Wikimedia Commons" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img height='40' alt="JavaScript logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/64px-Unofficial_JavaScript_logo_2.svg.png"></a>
 
-<a title="daPhyre, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg"><img align="right" width="64" alt="CSS3 and HTML5 logos and wordmarks" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/64px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"></a>
+<a title="HTML & CSS" href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg"><img " width="64" alt="CSS3 and HTML5 logos and wordmarks" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/64px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"></a>
 
-<a title="Facebook, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:React-icon.svg"><img width="64" alt="React-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/64px-React-icon.svg.png"></a>
+<a title="React" href="https://commons.wikimedia.org/wiki/File:React-icon.svg"><img width="64" alt="React-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/64px-React-icon.svg.png"></a>
 
 
 #
