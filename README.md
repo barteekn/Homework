@@ -2,7 +2,7 @@
 
 <a href='https://github.com/'><img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' height='40' alt='Git-Hub Logo' aria-label='https://github.com/logos/' /></a>
 
-<a title="JS logo via Wikimedia Commons" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img width="64" alt="Unofficial JavaScript logo 2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/64px-Unofficial_JavaScript_logo_2.svg.png"></a>
+<a title="JS logo via Wikimedia Commons" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img width="40" alt="JavaScript logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/64px-Unofficial_JavaScript_logo_2.svg.png"></a>
 
 # 
 📝 Homework's
