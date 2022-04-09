@@ -1,5 +1,5 @@
 # <a href='https://infoshareacademy.com/'><img src='https://infoshareacademy.com/wp-content/themes/infoshare/src/images/logo.svg' height='40' alt='infoShare Academy Logo' aria-label='https://infoshareacademy.com/' /></a>
-
+# <a href='https://github.com/logos/'><img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' height='40' alt='Git-Hub Logo' aria-label='https://github.com/logos/' /></a>
 📝 Homework's
 
 <ul>
