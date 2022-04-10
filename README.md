@@ -12,4 +12,5 @@
 <li><a href="https://github.com/barteekn/Homework/tree/master/05-homework-js-basics">05-homework</a> / JS - some basic scripts</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/06-homework-js">06-homework</a> / JS - operations on collections</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/07-homework-js-api">07-homework</a> / JS - work with API(s)</li>
+<li><a href="https://github.com/barteekn/Homework/tree/master/08-homework-react-fundamentals">08-homework</a> / React Fundamentals</li>
 </ul>
