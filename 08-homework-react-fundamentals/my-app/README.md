@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Zadanie 8 - React - fundamenty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Treść zadania
+### Zadanie 1 - 5pkt
+1. Wykonaj aplikację React.
+2. Aplikacja powinna mieć dostępne ścieżki:
+   1. `/`
+   2. `/about`
+   3. `/offer`
+   4. `/contact`
+3. Aplikacja powinna być zbudowana z wykorzystaniem re-używalnych komponentów:
+   1. `Header` - nagłówek na każdej podstronie
+   2. `Paragraph` - blok tekstu na podstronach: `offer` oraz `about`
+   3. `List` - lista elementów `li` przedstawiająca ofertę na podstronie `offer`
+   4. `Footer` - stopka na każdej podstronie
+   5. `Nav` - nawigacja dostępna na każdej podstronie.
+4. Link do aktywnej podstrony powinien się podświetlać.
+5. Nagłówek oraz nawigacja powinny scrollować się razem ze stroną - domyślny `position: relative` oraz pojawić się użytkownikowi po zescrolowaniu 600px - `position: fixed`.
+6. Aplikacja powinna wykorzystywać `styled-components`.
 
-## Available Scripts
+### Zadanie 1b - dodatkowe
+1. Wykonaj komponent `Layout` oraz stwórz zagnieżdżony routing - wykorzystaj komponent `<Outlet />` - pochodzący z biblioteki `react-router-dom`.
+2. Celem zadania jest wyeliminowanie powtarzających się użyć komponentu `Header`, `Footer` oraz `Nav` z wykorzystaniem utworzonego Layoutu.
+3. Wykorzystaj dokumentację biblioteki: `https://reactrouter.com/docs/en/v6/api#outlet` oraz `https://reactrouter.com/docs/en/v6/getting-started/overview#nested-routes`
 
-In the project directory, you can run:
+### Zadanie 2 - 10pkt
+1. Wykorzystując aplikację z Zadania 1, utwórz podstronę `Blog` dostępną pod adresem `/blog`.
+2. Po kliknięciu w post, powinna być dostępna podstrona danego postu, dostępna pod adresem: `/blog/:id`.
+3. Aplikacja powinna umożliwiać bezpośrednie wczytanie podstrony konkretnego postu.
+4. Utwórz komponent `CommentForm` umożliwiający dodanie komentarza do postu. Formularz powinien być dostępny na podstronie konkretnego postu.
+5. Po dodaniu komentarza, komentarz powinien wyświetlić się użytkownikowi.
+6. Po odświeżeniu strony lista komentarzy powinna być nadal widoczna - wykrozystaj API zbudowane na Json Server lub LocalStorage.
 
-### `npm start`
+### Zadanie 2b - dodatkowe
+1. Podczas pobierania danych - użytkownikowi powinien się wyświetlić `loader` - informujący o pobieraniu danych. Dla ułatwienia możesz ustawić opoóźnienie 10s.
+2. W przypadku niepoprawnego pobrania danych użytkownikowi powinien wyświetlić się komunikat o błędzie komunikacji z API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Założenia
+1. Nazwy funkcji, pola obiektów, nazwy zmiennych i stałych powinny być zapisane po angielsku.
+2. Wykorzystaj właśne api JSON Server lub gotowe api jak JSONPlaceholder.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Termin
+Nienegocjowalnym terminem oddania zadania jest 10.04.2022, godzina 23:59.
