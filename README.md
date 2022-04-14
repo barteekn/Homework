@@ -15,5 +15,3 @@
 <li><a href="https://github.com/barteekn/Homework/tree/master/08-homework-react-fundamentals">08-homework</a> / React Fundamentals</li>
 </ul>
 
-#
-NEW Line done on Linux
