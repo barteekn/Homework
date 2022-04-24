@@ -1,0 +1,51 @@
+.nav {
+    background: black;
+    box-shadow: inset 1px 1px 50px 4px rgba(7, 191, 228, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    height: 80px;
+    position: relative;
+    width: 100%;
+}
+
+.nav_scroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+nav a.active {
+    color: black;
+    background-color: #fff;
+}
+
+nav a:hover {
+    box-shadow: 3px -3px 41px 12px rgba(7, 191, 228, 1);
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+}
