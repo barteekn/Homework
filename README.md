@@ -13,5 +13,6 @@
 <li><a href="https://github.com/barteekn/Homework/tree/master/06-homework-js">06-homework</a> / JS - operations on collections</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/07-homework-js-api">07-homework</a> / JS - work with API(s)</li>
 <li><a href="https://github.com/barteekn/Homework/tree/master/08-homework-react-fundamentals">08-homework</a> / React Fundamentals</li>
+<li><a href="https://github.com/barteekn/Homework/tree/master/09-homework-react-todoapp">09-homework</a> / React TodoApp</li>
 </ul>
 
