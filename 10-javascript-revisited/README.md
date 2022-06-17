@@ -32,7 +32,7 @@ Każdy moduł zawiera określoną liczbę zadań i każde zadanie ma swoją punk
 
 ## ⏳Ile mam czasu na wykonanie pracy domowej?
 
-**Termin oddania pracy:** do końca dnia 10.06.2022r. (piątek)
+**Termin oddania pracy:** do końca dnia 17.06.2022r. (piątek)
 
 ---
 
