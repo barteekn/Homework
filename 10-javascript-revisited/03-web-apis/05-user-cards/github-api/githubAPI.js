@@ -1,11 +1,16 @@
 const gitHubForm = document.getElementById("gitHubForm");
+const username = document.getElementById("username");
+
 
 gitHubForm.addEventListener("submit", (e) => {
   e.preventDefault();
+  // const username = document.getElementById("username").value;
+  
 
   let usernameInput = document.getElementById("usernameInput");
 
   let gitHubUsername = usernameInput.value;
+
 
   requestUserRepos(gitHubUsername);
 });
