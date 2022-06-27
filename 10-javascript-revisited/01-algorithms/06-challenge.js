@@ -10,14 +10,15 @@ const emojiMap = {
   ":(": "🙁",
 };
 
-function emojiTranslator(string) {
-  let emoji = "";
-  for (let i = 0; i < arguments.length; i++) {
-    if (emojiMap[arguments[i]]) {
-      emoji += emojiMap[arguments[i]];
-    }
-  }
-  return emoji;
+function emojiTranslator(str) {
+  return str
+    .split(" ")
+    .map((word) => {
+      if (emojiMap[word]) {
+        return emojiMap[word];
+      }
+      return word;
+    })
+    .join("");
 }
-
-emojiTranslator("Jestem developrem", "frontend", ":D");
+console.log(emojiTranslator("Jestem developerem! :frontend"));

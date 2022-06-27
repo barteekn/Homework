@@ -1,19 +1,24 @@
 // Challenge 2 - Walidator hasła (do zdobycia: 0.5 pkt.)
+// Dodane nowe consol.logi tak aby były zgodne z Przykładem z GitHub.com
 
-function isPasswordCorrect(password) {
+function CheckPassword (password) {
   return password === "12345678";
 }
-console.log(isPasswordCorrect("87654321"));
+// console.log(CheckPassword("87654321"));
 
-function CheckPassword(password) {
-  var paswd = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,10}$/;
-  if (password.match(paswd)) {
+function isPasswordCorrect(password) {
+  var passwrd = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,10}$/;
+  if (password.match(passwrd)) {
     return true;
   } else {
     return false;
   }
 }
-console.log(CheckPassword("Bartek123!"));
-console.log(CheckPassword("bartek123"));
-console.log(CheckPassword("Bartek!@#2"));
-console.log(CheckPassword("testIS123@"));
+// console.log(isPasswordCorrect("Bartek123!"));
+// console.log(isPasswordCorrect("bartek123"));
+// console.log(isPasswordCorrect("Bartek!@#2"));
+// console.log(isPasswordCorrect("testIS123@"));
+
+console.log(isPasswordCorrect("infoShare"));
+console.log(isPasswordCorrect("qwerty123"));
+console.log(isPasswordCorrect("qwerty123!"));
