@@ -1,5 +1,6 @@
 // Challenge 3 - Najlepsze stopnie uczniów
 // Nowa funkcja odkomentowana, stara zakomentowana.
+// Summary update with other challenges.
 
 const students = [
   {
