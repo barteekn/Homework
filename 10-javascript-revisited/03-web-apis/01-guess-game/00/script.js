@@ -1,4 +1,4 @@
-let randomNumber = Math.floor(Math.random() * 100) + 1;
+let randomNumber = Math.floor(Math.random() * 10) + 1;
 const guesses = document.querySelector(".guesses");
 const lastResult = document.querySelector(".lastResult");
 const lowOrHi = document.querySelector(".lowOrHi");
@@ -20,7 +20,7 @@ function checkGuess() {
     lastResult.style.backgroundColor = "green";
     lowOrHi.textContent = "";
     setGameOver();
-  } else if (guessCount === 5) {
+  } else if (guessCount === 10) {
     lastResult.textContent = "!!!GAME OVER!!!";
     lowOrHi.textContent = "";
     setGameOver();

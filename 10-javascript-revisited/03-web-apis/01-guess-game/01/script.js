@@ -1,34 +1,67 @@
-// Challenge 1 - Zgaduj zgadula (do zdobycia: 1 pkt.)
-// Napisz grę z wykorzystaniem wiedzy z dzisiejszych zajęć. Celem gry jest wylosowanie tajnej liczby z zakresu od 1 do 10 przez komputer, a następnie pobieranie liczb od użytkownika (za pomocą metody window.prompt()) z tego zakresu.
+let randomNumber = Math.floor(Math.random() * 100) + 1;
+const guesses = document.querySelector(".guesses");
+const lastResult = document.querySelector(".lastResult");
+const lowOrHi = document.querySelector(".lowOrHi");
+const guessSubmit = document.querySelector(".guessSubmit");
+const guessField = document.querySelector(".guessField");
+let guessCount = 1;
+let resetButton;
 
-// Każdy użytkownik ma trzy szanse i na początku każdej "tury" informujemy użytkownika o ilości szans jaką posiada. Po tym jak użytkownik wprowadzi liczbę imitujemy "myślenie" komputera, które powinno dać wrażenie użytkownikowi "sprawdzania liczby przez komputer" i po około dwóch sekundach powinniśmy użytkownika poinformować czy trafił wylosowaną liczbę. Jeśli tak to kończymy grę wyswietlając komunikat o wygranej, jeżeli użytkownik po trzech próbach nie trafił kończymy grę informując o porażce.
+function checkGuess() {
+  const userGuess = Number(guessField.value);
+  if (guessCount === 1) {
+    guesses.textContent = "Previous guesses: ";
+  }
 
-// Żeby ułatwić użytkownikowi odgadnięcie liczby wyświetlaj po każdej nieudanej próbie odgadnięcia komunikat, czy liczba którą przekazał jest "za duża" czy "za mała".
+  guesses.textContent += userGuess + " ";
 
-// Gra może wyglądać w ten sposób:
+  if (userGuess === randomNumber) {
+    lastResult.textContent = "Congratulations! You got it right!";
+    lastResult.style.backgroundColor = "green";
+    lowOrHi.textContent = "";
+    setGameOver();
+  } else if (guessCount === 5) {
+    lastResult.textContent = "!!!GAME OVER!!!";
+    lowOrHi.textContent = "";
+    setGameOver();
+  } else {
+    lastResult.textContent = "Wrong!";
+    lastResult.style.backgroundColor = "red";
+    if (userGuess < randomNumber) {
+      lowOrHi.textContent = "Last guess was too low!";
+    } else if (userGuess > randomNumber) {
+      lowOrHi.textContent = "Last guess was too high!";
+    }
+  }
 
-// img
+  guessCount++;
+  guessField.value = "";
+  guessField.focus();
+}
 
-// Podpowiedź: Do tego zadania może Ci się przydać rekurencja.
+guessSubmit.addEventListener("click", checkGuess);
 
-// function guessGame() {
-//   const secretNumber = Math.floor(Math.random() * 10) + 1;
-//   const maxAttempts = 3;
-//   let attempts = 0;
-//   let guess;
-//   while (attempts < maxAttempts) {
-//     guess = window.prompt(`Podaj liczbę z zakresu od 1 do 10`);
-//     attempts++;
-//     if (guess == secretNumber) {
-//       alert(`Gratulacje, zgadłeś!`);
-//       break;
-//     } else if (guess > secretNumber) {
-//       alert(`Liczba jest za duża`);
-//     } else {
-//       alert(`Liczba jest za mała`);
-//     }
-//   }
-//   if (attempts == maxAttempts) {
-//     alert(`Przegrałeś!`);
-//   }
-// }
+function setGameOver() {
+  guessField.disabled = true;
+  guessSubmit.disabled = true;
+  resetButton = document.createElement("button");
+  resetButton.textContent = "Start new game";
+  document.body.appendChild(resetButton);
+  resetButton.addEventListener("click", resetGame);
+}
+
+function resetGame() {
+  guessCount = 1;
+  const resetParas = document.querySelectorAll(".resultParas p");
+  for (const resetPara of resetParas) {
+    resetPara.textContent = "";
+  }
+
+  resetButton.parentNode.removeChild(resetButton);
+  guessField.disabled = false;
+  guessSubmit.disabled = false;
+  guessField.value = "";
+  guessField.focus();
+  lastResult.style.backgroundColor = "white";
+  randomNumber = Math.floor(Math.random() * 10) + 1;
+}
